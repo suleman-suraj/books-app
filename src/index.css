@@ -1,3 +1,4 @@
+ @import url(reset.css);
  .app{
    display: flex;
    min-height: 100%;
@@ -6,7 +7,10 @@
  .appbar{
    padding: 0 30px;
  }
- .navbar-fixed{
+ main{
+   flex: 1;
+ }
+ /* .navbar-fixed{
    background-color: crimson;
    height: 80px;
    border-bottom: box-shadow gray;
@@ -46,4 +50,4 @@
  }
  form input{
    height: 40px;
- }
+ } */
